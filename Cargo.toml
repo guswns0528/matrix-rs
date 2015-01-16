@@ -1,0 +1,13 @@
+[package]
+name = "matrix"
+version = "1.0.0"
+authors = [ "Joon <guswns0528@gmail.com>" ]
+
+[dependencies]
+rand = "*"
+
+[dependencies.ncurses]
+git = "https://github.com/jeaye/ncurses-rs.git"
+
+[[bin]]
+name = "matrix"
